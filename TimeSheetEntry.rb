@@ -31,7 +31,7 @@ class TimeSheetEntry
     lunch_total = @lunch_start == '' ? 0 : @lunch_end - @lunch_start
     diff_in_seconds = total_time - lunch_total
 
-    total_time
+    diff_in_seconds
   end
 
 
